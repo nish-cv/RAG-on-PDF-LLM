@@ -10,8 +10,8 @@ To get started, you need to install the following Python libraries. You can inst
 pip install torch
 pip install langchain
 pip install langchain-community
-pip install huggingface_hub
 pip install pinecone
+pip install pymupdf
 pip install transformers
 pip install dotenv #To store env variables (Optional)
 ```
@@ -30,7 +30,7 @@ python -m build --wheel
 
 ### Hugging Face
 
-To use the Hugging Face model, you need to authenticate. You can obtain the `hf_auth` code by requesting it from the Hugging Face website:
+To use the Hugging Face model, you need to authenticate. You can obtain the `HF_AUTH` code by requesting it from the Hugging Face website:
 
 1. Go to the [Hugging Face website](https://huggingface.co/).
 2. Sign up or log in to your account.
@@ -46,7 +46,7 @@ You will also need an API key for Pinecone. You can create a free Pinecone accou
 
 ## Usage
 
-Once you have installed the necessary libraries and configured your API keys, you can run the application as shown in the notebook. Make sure to replace the placeholder values for `hf_auth` and `api_key` with your actual credentials.
+Once you have installed the necessary libraries and configured your API keys, you can run the application as shown in the notebook. Make sure to replace the placeholder values for `HF_AUTH` and `PINECONE_API_KEY` with your actual credentials.
 
 ## Contributing
 
